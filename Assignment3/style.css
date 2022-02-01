@@ -1,0 +1,26 @@
+/* Elements */
+a:link{
+  color: red;
+}
+a:hover{
+  color: yellow;
+}
+a:visited{
+  color: green;
+}
+
+/* Classes */
+.CTK{
+  color: blue;
+  font-style: italic;
+}
+.foot{
+  color: gray;
+  text-align: right;
+}
+
+/* IDs */
+#top{
+  color: white;
+  background-color: blue;
+}

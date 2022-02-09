@@ -1,0 +1,54 @@
+h1 {
+  color: white;
+}
+
+h2 {
+  color: blue;
+}
+
+h3 {
+  background-color: yellow;
+}
+
+h4 {
+  color: yellow;
+  background-color: darkgreen;
+}
+
+h5 {
+  color: red;
+}
+
+a {
+  color: green;
+}
+
+a:hover {
+  color: orange;
+}
+
+.TPS {
+  background-color: lightblue;
+}
+
+.quote {
+  color: orange;
+  font-weight: bold;
+}
+
+.inferno {
+  color: red;
+}
+
+.FD {
+  background-color: lightgreen;
+}
+
+.TDD {
+  background-color: yellow;
+}
+
+.quoteTwo {
+  color: blue;
+  font-weight: bold;
+}

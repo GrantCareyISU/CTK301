@@ -1,0 +1,51 @@
+/* Elements */
+* {
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+a:link {
+  color: red;
+}
+a:hover {
+  color: yellow;
+}
+a:visited {
+  color: green;
+}
+
+/* Classes */
+.image {
+  border: 10px solid black;
+  padding: 5px;
+  background: white;
+  background-clip: border-box;
+}
+
+.CTK {
+  color: blue;
+  font-style: italic;
+}
+.foot {
+  color: gray;
+  text-align: right;
+}
+
+.details {
+  text-align: center;
+}
+
+.justify {
+  justify-content: center;
+}
+
+/* IDs */
+#top {
+  color: white;
+  background-color: blue;
+}

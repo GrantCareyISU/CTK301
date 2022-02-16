@@ -1,0 +1,76 @@
+body {
+  background-image: url("a5bg.png");
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  color: white;
+  background-color: darkblue;
+  border: white solid 3px;
+  font-family: Verdana;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: normal;
+  background-color: white;
+  padding: 20px;
+}
+
+h2 {
+  font-weight: bold;
+  border-bottom: 3px solid black;
+}
+
+main p {
+  text-align: justify;
+}
+
+main a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a {
+  text: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: blue;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+nav ul li {
+  width: 200px;
+  margin-right: 10px;
+  padding: 0px;
+  display: inline-block;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  background-color: darkblue;
+  display: block;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: blue;
+}

@@ -1,0 +1,156 @@
+body {
+  background-color: gray;
+}
+
+header {
+  grid-column: span 4;
+  font-family: georgia;
+  background: rgb(0,0,93);
+  background: linear-gradient(0deg, rgba(0,0,93,1) 0%, rgba(135,206,235,1) 100%);
+}
+
+header a {
+  text-decoration: none;
+  display: block;
+  padding: 0;
+  color: skyblue;
+}
+
+header a:hover {
+  text-decoration: none;
+  display: block;
+  padding: 0;
+  color: cyan;
+  background: rgb(1,177,60);
+  background: linear-gradient(0deg, rgba(1,177,60,1) 0%, rgba(135,206,235,1) 100%);
+}
+
+h1 {
+  color: lightblue;
+  margin-left: 10px;
+}
+
+nav {
+  grid-column: span 4;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: span 3;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline;
+  grid-column: span 1;
+  color: lightblue;
+  background: rgb(0,0,93);
+  background: linear-gradient(0deg, rgba(0,0,93,1) 0%, rgba(135,206,235,1) 100%);
+}
+
+nav ul li a {
+  display: block;
+  background: rgb(0,0,93);
+  background: linear-gradient(0deg, rgba(0,0,93,1) 0%, rgba(135,206,235,1) 100%);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+nav ul li a:hover {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+main {
+  grid-column: span 4;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+p a {
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+}
+
+p a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+h2 {
+  font-family: helvetica;
+  color: blue;
+  padding-bottom: 3px;
+  border-bottom: 3px solid blue;
+}
+
+footer {
+  grid-column: span 4;
+  padding: 10px;
+  background-color: red;
+  border-top: 3px solid blue;
+}
+
+.introduction p {
+  font-weight: bold;
+}
+
+.content img {
+  border: 3px solid blue;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.update {
+  margin-top: 20px;
+}
+
+.about img {
+  border: 3px solid blue;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.gallery img {
+  border: 3px solid blue;
+  margin-right: 10px;
+}
+
+.anime img {
+  width: 400px;
+  height: 300px;
+  border: 3px solid blue;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.anime a {
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+}
+
+.anime a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+#wrapper {
+  margin: 1em auto;
+  width: 960px;
+  border: 5px solid blue;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}

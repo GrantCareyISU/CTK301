@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+}
+
+nav {
+  grid-column: span 14;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+}
+
+footer {
+  background-color: darkblue;
+  color: white;
+}
+
+.logo {
+  grid-column: span 2;
+  border-bottom: 1px solid white;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.navleft {
+  grid-column: span 7;
+  font-size: xx-large;
+  font-weight: bold;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+.navleft a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  background-color: darkblue;
+  transition: background-color 3.0s;
+}
+
+.navleft a:hover {
+  background-color: blue;
+}
+
+.navright {
+  grid-column: span 7;
+  font-size: xx-large;
+  font-weight: bold;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+.navright a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  background-color: darkblue;
+  transition: background-color 3.0s;
+}
+
+.navright a:hover {
+  background-color: blue;
+}
+
+.title {
+  grid-column: span 16;
+  background-color: white;
+}
+
+.title h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 2px #000;
+  font-family: 'Beau Rivage', cursive;
+}
+
+.content {
+  grid-column: span 16;
+}
+
+.content a {
+  display: inline;
+}
+
+.content img {
+  border-radius: 20px;
+}
